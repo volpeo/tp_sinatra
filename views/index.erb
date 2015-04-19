@@ -1,0 +1,31 @@
+<h1>Gestion des absences</h1>
+
+<h2>
+  Listing des absences 
+  (<%#= TODO (b): show the total number of absences %>)
+</h2>
+<ul>
+  <%# TODO (a): iterate on the instance variable given in controller %>
+    <li>
+      <strong><%#= TODO (a): show the student name %></strong>,
+      <%#= TODO (a): show the date %>
+    </li>
+  <% # TODO (a): don't forget the end %>
+</ul>
+
+<h2>Ajout d'une absence</h2>
+<form action="/" method="post">
+  <p>
+    <label>Nom de l'étudiant</label>
+    <br>
+    <input type="text" name="person_name">
+  </p>
+  <p>
+    <label>Date de l'absence</label>
+    <br>
+    <input type="text" name="date">
+  </p>
+  <p>
+    <input type="submit" value="Enregistrer l'absence">
+  </p>
+</form>
