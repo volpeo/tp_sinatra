@@ -15,4 +15,8 @@ Complétez toutes les parties pour arriver aux fonctionnalités suivante :
 
 À tout moment, vous pouvez lancer l'application en tapant ruby app.rb dans votre terminal.
 
+Pour aller plus loin :
+* Mettre en place Data Mapper et sqlite3
+* Mettre en place une authentification avec token pour l'API
+
 Bon courage !
