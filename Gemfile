@@ -1,4 +1,4 @@
-source "http://rubygems.com"
+source "http://rubygems.org"
 
 gem "sinatra"
 gem "json"
